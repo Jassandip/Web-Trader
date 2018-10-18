@@ -1,0 +1,16 @@
+{% extends "homepage.html" %}
+
+
+{% block viewport %}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Lookup</h1>
+</div>
+<h2>{{ message }}</h1>
+<p></p>
+<form action='/lookup' method="post">
+   <!-- Ticker form-field -->
+   <input name="ticker" placeholder="Company Name" type="text">
+   <!-- Button -->
+   <input type="submit">
+</form>
+{% endblock viewport %}

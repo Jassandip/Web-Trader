@@ -1,0 +1,3 @@
+lists = [['tsla'], ['tsla'], ['sla']]
+
+print(lists[2])
